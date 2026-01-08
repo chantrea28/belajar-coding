@@ -1,0 +1,14 @@
+nama ="jaka"
+print(type(nama))
+
+umur = 20 
+print(type(umur))
+
+bb = 52.5
+print(type(bb))
+      
+active = True
+print(type(active))
+
+fruits= ["apple", "banana","durian,", "cherry"]
+print(type(fruits))
