@@ -12,3 +12,13 @@ print(type(active))
 
 fruits= ["apple", "banana","durian,", "cherry"]
 print(type(fruits))
+
+angka1= 150
+print(type(angka1))
+
+angka2 = float(angka1)
+print(type(angka2))
+
+angka3 = str(angka1)
+print(type(angka3))
+
