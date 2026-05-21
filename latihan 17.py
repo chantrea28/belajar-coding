@@ -19,3 +19,36 @@ def sumnumbers(*numbers):
 
 print(sumnumbers(1,2,3,4,5,6,7,8))
 print(sumnumbers(10,20,30,40,50))
+
+#keyword argument
+def fullname(fname, lname):
+    print(f'HI {fname} {lname}!')
+
+fullname(fname = "muhammad", lname = "chantrea")
+fullname(lname = "aqidah", fname = "salamah")
+
+#arbitary keyword argument (**)
+def namalengkap (**nama):
+    result = nama .values()
+    print(" ".join (result))
+
+namalengkap(
+    fname = "salamah",
+    mname = 'nur',
+    lname = 'aqidah'
+)
+
+namalengkap(
+    fname = "humaira",
+    lname = 'qonita'
+
+)      
+
+#default value
+def sayhello(name, message= "hello"):
+    print(f'{message} {name} !') 
+
+sayhello ("fatih")
+sayhello("syafiq","hi")
+
+
